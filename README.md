@@ -5,7 +5,7 @@
 [![Build Status](https://travis-ci.com/OverLordGoldDragon/deeptrain.svg?branch=master)](https://travis-ci.com/OverLordGoldDragon/deeptrain)
 [![Coverage Status](https://coveralls.io/repos/github/OverLordGoldDragon/deeptrain/badge.svg?branch=master&service=github)](https://coveralls.io/github/OverLordGoldDragon/deeptrain)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/b3ddf578cd674c268004b0c445c2d695)](https://www.codacy.com/manual/OverLordGoldDragon/deeptrain?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=OverLordGoldDragon/deeptrain&amp;utm_campaign=Badge_Grade)
-[![PyPI version](https://badge.fury.io/py/deeptrain.svg)](https://badge.fury.io/py/keras-adamw)
+[![PyPI version](https://badge.fury.io/py/deeptrain.svg)](https://badge.fury.io/py/deeptrain)
 [![Documentation Status](https://readthedocs.org/projects/deeptrain/badge/?version=latest)](https://deeptrain.readthedocs.io/en/latest/?badge=latest)
 
 ![](https://img.shields.io/badge/keras-tensorflow-blue.svg)
