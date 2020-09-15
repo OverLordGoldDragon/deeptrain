@@ -7,7 +7,7 @@ Full knowledge and control of the train state.
 Installation
 ------------
 
-``pip install deeptrain`` (without data; see `how to run examples <https://dev-tg.readthedocs.io/en/latest/how_to.html#run-examples>`_ ), or clone repository
+``pip install deeptrain`` (without data; see `how to run examples <https://deeptrain.readthedocs.io/en/latest/how_to.html#run-examples>`_ ), or clone repository
 
    
 Examples

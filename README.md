@@ -4,8 +4,9 @@
 
 [![Build Status](https://travis-ci.com/OverLordGoldDragon/deeptrain.svg?branch=master)](https://travis-ci.com/OverLordGoldDragon/deeptrain)
 [![Coverage Status](https://coveralls.io/repos/github/OverLordGoldDragon/deeptrain/badge.svg?branch=master&service=github)](https://coveralls.io/github/OverLordGoldDragon/deeptrain)
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/ffcc47bf29f44c9fb35e00a5965d1b5d)](https://www.codacy.com/manual/OverLordGoldDragon/deeptrain?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=OverLordGoldDragon/deeptrain&amp;utm_campaign=Badge_Grade)
-[![Documentation Status](https://readthedocs.org/projects/dev-tg/badge/?version=latest)](https://dev-tg.readthedocs.io/en/latest/?badge=latest)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/b3ddf578cd674c268004b0c445c2d695)](https://www.codacy.com/manual/OverLordGoldDragon/deeptrain?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=OverLordGoldDragon/deeptrain&amp;utm_campaign=Badge_Grade)
+[![PyPI version](https://badge.fury.io/py/deeptrain.svg)](https://badge.fury.io/py/keras-adamw)
+[![Documentation Status](https://readthedocs.org/projects/deeptrain/badge/?version=latest)](https://deeptrain.readthedocs.io/en/latest/?badge=latest)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 ![](https://img.shields.io/badge/keras-tensorflow-blue.svg)
@@ -25,17 +26,17 @@ DeepTrain is founded on **control** and **introspection**: full knowledge and ma
 
 ### Data Pipeline
 
-  - **Flexible batch_size**: can differ from that of loaded files, will split/combine ([ex](https://dev-tg.readthedocs.io/en/latest/examples/misc/flexible_batch_size.html))
+  - **Flexible batch_size**: can differ from that of loaded files, will split/combine ([ex](https://deeptrain.readthedocs.io/en/latest/examples/misc/flexible_batch_size.html))
   - **Faster SSD loading**: load larger batches to maximize read speed utility
-  - **Stateful timeseries**: splits up a batch into windows, and `reset_states()` (RNNs) at end ([ex](https://dev-tg.readthedocs.io/en/latest/examples/misc/timeseries.html))
+  - **Stateful timeseries**: splits up a batch into windows, and `reset_states()` (RNNs) at end ([ex](https://deeptrain.readthedocs.io/en/latest/examples/misc/timeseries.html))
   
 ### Introspection & Utilities
 
-  - **Model**: auto descriptive naming ([ex](https://dev-tg.readthedocs.io/en/latest/examples/misc/model_auto_naming.html)); gradients, weights, activations visuals ([ex](https://dev-tg.readthedocs.io/en/latest/examples/callbacks/mnist.html#Init-&-train))
-  - **Train state**: image log of key attributes for easy reference ([ex](https://dev-tg.readthedocs.io/en/latest/examples/advanced.html#Inspect-generated-logs)); batches marked w/ "set nums" - know what's being fit and when
+  - **Model**: auto descriptive naming ([ex](https://deeptrain.readthedocs.io/en/latest/examples/misc/model_auto_naming.html)); gradients, weights, activations visuals ([ex](https://deeptrain.readthedocs.io/en/latest/examples/callbacks/mnist.html#Init-&-train))
+  - **Train state**: image log of key attributes for easy reference ([ex](https://deeptrain.readthedocs.io/en/latest/examples/advanced.html#Inspect-generated-logs)); batches marked w/ "set nums" - know what's being fit and when
   - **Algorithms, preprocesing, calibration**: tools for inspecting & manipulating data and models
 
-[Complete list](https://dev-tg.readthedocs.io/en/latest/why_deeptrain.html)
+[Complete list](https://deeptrain.readthedocs.io/en/latest/why_deeptrain.html)
 
 ## When is DeepTrain suitable (and not)?
 
@@ -65,29 +66,29 @@ DeepTrain is *not* a "wrapper" around TF; while currently only supporting TF, fi
 
 Once `validate()` finishes, training may checkpoint, and `train()` is called again. Internally, data loads with `DataGenerator.load_data()` (using e.g. `np.load`).
 
-That's the high-level overview; details [here](https://dev-tg.readthedocs.io/en/latest/how_works.html). Callbacks & other behavior can be configured for every stage of training.
+That's the high-level overview; details [here](https://deeptrain.readthedocs.io/en/latest/how_works.html). Callbacks & other behavior can be configured for every stage of training.
 
 ## Examples
 
-<a href="https://dev-tg.readthedocs.io/en/latest/examples/advanced.html">MNIST AutoEncoder</a> | <a href="https://dev-tg.readthedocs.io/en/latest/examples/misc/timeseries.html">Timeseries Classification</a> | <a href="https://dev-tg.readthedocs.io/en/latest/examples/misc/model_health.html">Health Monitoring</a>
+<a href="https://deeptrain.readthedocs.io/en/latest/examples/advanced.html">MNIST AutoEncoder</a> | <a href="https://deeptrain.readthedocs.io/en/latest/examples/misc/timeseries.html">Timeseries Classification</a> | <a href="https://deeptrain.readthedocs.io/en/latest/examples/misc/model_health.html">Health Monitoring</a>
 :----------------:|:-----------------:|:-----------------:
-<a href="https://dev-tg.readthedocs.io/en/latest/examples/advanced.html"><img src="https://raw.githubusercontent.com/OverLordGoldDragon/deeptrain/master/docs/source/_images/mnist.gif" width="210" height="210"><a>|<a href="https://dev-tg.readthedocs.io/en/latest/examples/misc/timeseries.html"><img src="https://raw.githubusercontent.com/OverLordGoldDragon/deeptrain/master/docs/source/_images/ecg2.png" width="210" height="210"></a>|<a href="https://dev-tg.readthedocs.io/en/latest/examples/misc/model_health.html"><img src="https://raw.githubusercontent.com/OverLordGoldDragon/deeptrain/master/docs/source/_images/model_health.png" width="210" height="210"></a>
+<a href="https://deeptrain.readthedocs.io/en/latest/examples/advanced.html"><img src="https://raw.githubusercontent.com/OverLordGoldDragon/deeptrain/master/docs/source/_images/mnist.gif" width="210" height="210"><a>|<a href="https://deeptrain.readthedocs.io/en/latest/examples/misc/timeseries.html"><img src="https://raw.githubusercontent.com/OverLordGoldDragon/deeptrain/master/docs/source/_images/ecg2.png" width="210" height="210"></a>|<a href="https://deeptrain.readthedocs.io/en/latest/examples/misc/model_health.html"><img src="https://raw.githubusercontent.com/OverLordGoldDragon/deeptrain/master/docs/source/_images/model_health.png" width="210" height="210"></a>
   
-<a href="https://dev-tg.readthedocs.io/en/latest/examples/callbacks/mnist.html">Tracking Weights</a> | <a href="https://dev-tg.readthedocs.io/en/latest/examples/misc/reproducibility.html">Reproducibility</a> | <a href="https://dev-tg.readthedocs.io/en/latest/examples/misc/flexible_batch_size.html">Flexible batch_size</a>
+<a href="https://deeptrain.readthedocs.io/en/latest/examples/callbacks/mnist.html">Tracking Weights</a> | <a href="https://deeptrain.readthedocs.io/en/latest/examples/misc/reproducibility.html">Reproducibility</a> | <a href="https://deeptrain.readthedocs.io/en/latest/examples/misc/flexible_batch_size.html">Flexible batch_size</a>
 :----------------:|:----------------:|:----------------:|
-<a href="https://dev-tg.readthedocs.io/en/latest/examples/callbacks/mnist.html"><img src="https://raw.githubusercontent.com/OverLordGoldDragon/deeptrain/master/docs/source/_images/gradients.gif" width="210" height="210"></a>|<a href="https://dev-tg.readthedocs.io/en/latest/examples/misc/reproducibility.html"><img src="https://raw.githubusercontent.com/OverLordGoldDragon/deeptrain/master/docs/source/_images/reproducibility.png" width="210" height="210"></a>|<a href="https://dev-tg.readthedocs.io/en/latest/examples/misc/flexible_batch_size.html"><img src="https://raw.githubusercontent.com/OverLordGoldDragon/deeptrain/master/docs/source/_images/flexible_batch_size.png" width="210" height="210"></a>
+<a href="https://deeptrain.readthedocs.io/en/latest/examples/callbacks/mnist.html"><img src="https://raw.githubusercontent.com/OverLordGoldDragon/deeptrain/master/docs/source/_images/gradients.gif" width="210" height="210"></a>|<a href="https://deeptrain.readthedocs.io/en/latest/examples/misc/reproducibility.html"><img src="https://raw.githubusercontent.com/OverLordGoldDragon/deeptrain/master/docs/source/_images/reproducibility.png" width="210" height="210"></a>|<a href="https://deeptrain.readthedocs.io/en/latest/examples/misc/flexible_batch_size.html"><img src="https://raw.githubusercontent.com/OverLordGoldDragon/deeptrain/master/docs/source/_images/flexible_batch_size.png" width="210" height="210"></a>
 
 
 ## Installation
 
-`pip install deeptrain` (without data; see [how to run examples](https://dev-tg.readthedocs.io/en/latest/how_to.html#run-examples)), or clone repository
+`pip install deeptrain` (without data; see [how to run examples](https://deeptrain.readthedocs.io/en/latest/how_to.html#run-examples)), or clone repository
 
 ## Quickstart
 
 To run, DeepTrain requires (1) a compiled model; (2) data directories (train & val). Below is a minimalistic example.
 
-Checkpointing, visualizing, callbacks & more can be accomplished via additional arguments; see [Basic](https://dev-tg.readthedocs.io/en/latest/examples/basic.html) and [Advanced](https://dev-tg.readthedocs.io/en/latest/examples/advanced.html) examples. 
-Also see [Recommended Usage](https://dev-tg.readthedocs.io/en/latest/recommended_usage.html).
+Checkpointing, visualizing, callbacks & more can be accomplished via additional arguments; see [Basic](https://deeptrain.readthedocs.io/en/latest/examples/basic.html) and [Advanced](https://deeptrain.readthedocs.io/en/latest/examples/advanced.html) examples. 
+Also see [Recommended Usage](https://deeptrain.readthedocs.io/en/latest/recommended_usage.html).
 
 ```python
 from tensorflow.keras.layers import Input, Dense
