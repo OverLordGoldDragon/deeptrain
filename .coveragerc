@@ -1,0 +1,9 @@
+[run]
+parallel = True
+omit =
+    deeptrain/util/experimental.py
+
+[report]
+omit =
+    deeptrain/util/experimental.py
+precision = 3
