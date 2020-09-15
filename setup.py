@@ -1,4 +1,4 @@
-import os 
+import os
 import re
 from setuptools import setup, find_packages
 
@@ -32,7 +32,7 @@ setup(
     license="MIT",
     author="OverLordGoldDragon",
     author_email="16495490+OverLordGoldDragon@users.noreply.github.com",
-    description=("dev-stage repo"),
+    description=("Full knowledge and control of the train state"),
     long_description=read_file('README.md'),
     long_description_content_type="text/markdown",
     keywords=(
@@ -49,6 +49,7 @@ setup(
     classifiers=[
         "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
         "Intended Audience :: Developers",

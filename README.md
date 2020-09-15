@@ -7,10 +7,10 @@
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/b3ddf578cd674c268004b0c445c2d695)](https://www.codacy.com/manual/OverLordGoldDragon/deeptrain?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=OverLordGoldDragon/deeptrain&amp;utm_campaign=Badge_Grade)
 [![PyPI version](https://badge.fury.io/py/deeptrain.svg)](https://badge.fury.io/py/keras-adamw)
 [![Documentation Status](https://readthedocs.org/projects/deeptrain/badge/?version=latest)](https://deeptrain.readthedocs.io/en/latest/?badge=latest)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 ![](https://img.shields.io/badge/keras-tensorflow-blue.svg)
 ![](https://img.shields.io/badge/keras-tf.keras-blue.svg)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 Full knowledge and control of the train state.
 
