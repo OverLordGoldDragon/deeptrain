@@ -54,4 +54,4 @@ Utilities
   - **Algorithms**: convenience methods for object inspection & manipulation -- `docs <deeptrain.util.html#module-deeptrain.util.algorithms>`_
   - **Callbacks**: reusable methods with other libraries supporting callbacks -- `docs <deeptrain.html#module-deeptrain.callbacks>`_
 
-List not exhaustive; for application-specific features, see examples.
+List not exhaustive; for application-specific features, see :doc:`Framework Comparison <framework_comparison>`.

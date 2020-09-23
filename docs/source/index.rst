@@ -7,7 +7,7 @@ Full knowledge and control of the train state.
 Installation
 ------------
 
-``pip install deeptrain`` (without data; see `how to run examples <https://deeptrain.readthedocs.io/en/latest/how_to.html#run-examples>`_ ), or clone repository
+``pip install deeptrain`` (without data; see `how to run examples <how_to.html#run-examples>`_ ), or clone repository
 
    
 Examples
@@ -65,4 +65,4 @@ Table of Contents
    How to ...? <how_to>
    How does ... work? <how_works>
    API Reference <api_reference>
-   
+   Framework Comparison <framework_comparison>   
